@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>手机号汇总</title>
+    <link rel="stylesheet" href="/static/css/table.css"/>
+</head>
+<body>
+    <table border="1" cellspacing="0" bordercolor="#000000" style="border-collapse:collapse;" width="100%">
+    <tr>
+        <th>姓名</th>
+        <th>手机号</th>
+    </tr>
+        {% for i in u %}
+            <tr>
+                <td >{{ i['name'] }}</td>
+                <td>{{ i['tel'] }}</td>
+            </tr>
+    {% endfor %}
+    </table>
+
+</body>
+</html>

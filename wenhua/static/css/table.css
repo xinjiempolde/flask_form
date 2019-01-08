@@ -1,0 +1,11 @@
+th {
+background-color: rgb(156, 186, 95);
+color: #fff;
+border-bottom-width: 0;
+font-size:50px;
+}
+
+td{
+text-align:center;
+font-size:50px;
+}
